@@ -11,7 +11,7 @@ body {
   position: relative;
 }
 
-.advance-arrow {
+.navigation {
   position: fixed;
   display: flex;
   align-items: center;
@@ -23,7 +23,7 @@ body {
   transform: translateX(-50%);
 }
 
-.advance-arrow button {
+.navigation button {
   font-size: 3rem;
   text-align: center;
   text-transform: uppercase;

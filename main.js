@@ -1,4 +1,4 @@
-function advanceArrow() {
+function navigationControls() {
   return {
     dispatcher: null,
 
