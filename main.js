@@ -40,11 +40,11 @@ function slidesContainer() {
     },
 
     goToSlide(index) {
-      const cur = this.slides[index];
-      if (cur) {
+      const nextSlide = this.slides[index];
+      if (nextSlide) {
         this.slides.forEach((slide) => slide.classList.remove("active"));
-        cur.scrollIntoView({ behavior: "smooth" });
-        cur.classList.add("active");
+        nextSlide.scrollIntoView({ behavior: "smooth" });
+        nextSlide.classList.add("active");
       }
     },
   };
